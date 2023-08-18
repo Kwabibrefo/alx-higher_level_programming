@@ -3,8 +3,10 @@ import random
 number = random.randint(-10000, 10000)
 # store number % 10 as a variable called remainder
 if number < 0:
-    number = -1 * number
-remainder = number % 10
+    num = -1 * number
+    remainder = -1 * (num % 10)
+else:
+    remainder = number % 10
 # print Last digit of 
 print("Last digit of ", end="")
 # print number
