@@ -3,7 +3,9 @@ def print_last_digit(number):
     if number < 0:
         number = -1 * number
         last_digit = number % 10
-    else:
+    elif number > 0:
         last_digit = number % 10
+    else:
+        last_digit = number
     print("{}".format(last_digit), end="")
-    return number
+    return last_digit
