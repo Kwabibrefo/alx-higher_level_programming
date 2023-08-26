@@ -5,5 +5,5 @@ def multiple_returns(sentence):
     else:
         y = sentence[0]
     x = len(sentence)
-    tep = x, y
+    tup = x, y
     return (tup)
